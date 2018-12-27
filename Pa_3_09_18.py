@@ -66,7 +66,7 @@ flag = 0
 audio = "hello"
 while audio != "bye":
     audio = lamiya_listens()
-    audio = audio.lower()
+    audio =  audio.lower()
     lamiya_speaks(audio)
 
 
